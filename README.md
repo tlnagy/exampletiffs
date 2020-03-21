@@ -16,5 +16,6 @@ unknown.
 | `spring.tif`         | Tamas Nagy | (619, 858)     | Float16 RGB                             | [BSD-3-Clause](https://opensource.org/licenses/BSD-3-Clause) |
 | `poppies.tif`        | Tamas Nagy | (1008, 756)    | Rotated orientation, Palette-colored    | [BSD-3-Clause](https://opensource.org/licenses/BSD-3-Clause) |
 | `capitol.tif`        | Tamas Nagy | (378, 504)     | Bilevel image                           | [BSD-3-Clause](https://opensource.org/licenses/BSD-3-Clause) |
+| `coffee.tif`         | Tamas Nagy | (378, 504)     | Grayscale, Packbits                     | [BSD-3-Clause](https://opensource.org/licenses/BSD-3-Clause) |
 
 [1]: http://people.math.sc.edu/Burkardt/data/tif/tif.html
