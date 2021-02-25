@@ -1,7 +1,7 @@
 # exampletiffs
 
 These are some examples that showcase features of the TIFF format in order
-to thoroughly test TIFF.jl. 
+to thoroughly test TIFF.jl.
 
 Unfortunately the copyright information for several of these tifs is
 unknown.
@@ -16,6 +16,7 @@ unknown.
 | `spring.tif`         | Tamas Nagy | (619, 858)          | Float16 RGB                             | [BSD-3-Clause](https://opensource.org/licenses/BSD-3-Clause) |
 | `poppies.tif`        | Tamas Nagy | (1008, 756)         | Rotated orientation, Palette-colored    | [BSD-3-Clause](https://opensource.org/licenses/BSD-3-Clause) |
 | `capitol.tif`        | Tamas Nagy | (378, 504)          | Bilevel image                           | [BSD-3-Clause](https://opensource.org/licenses/BSD-3-Clause) |
+| `capitol2.tif`       | Tamas Nagy | (378, 504)          | Striped bilevel image                   | [BSD-3-Clause](https://opensource.org/licenses/BSD-3-Clause) |
 | `coffee.tif`         | Tamas Nagy | (378, 504)          | Grayscale, Packbits                     | [BSD-3-Clause](https://opensource.org/licenses/BSD-3-Clause) |
 | `house.tif`          | [2]        | (512, 512)          | Gray Alpha                              | MIT license?                                                 |
 | `4D-series.ome.tif`  | [3]        | (439, 167, 5, 1, 7) | Signed integer gray type                | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)    |
