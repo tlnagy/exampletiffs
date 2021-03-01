@@ -6,7 +6,7 @@ to thoroughly test TIFF.jl.
 Unfortunately the copyright information for several of these tifs is
 unknown.
 
-| Name                 | Source     | Size                | Features                                | License                                                      |
+| Name                 | Source     | Size (Rows, Cols)   | Features                                | License                                                      |
 |----------------------|------------|---------------------|-----------------------------------------|--------------------------------------------------------------|
 | `bali.tif`           | [1]        | (489, 725)          | LZW compression, RGB                    | ?                                                            |
 | `underwater_bmx.tif` | [1]        | (1076, 773)         | Adobe Deflate compression, RGB          | ?                                                            |
@@ -20,7 +20,9 @@ unknown.
 | `coffee.tif`         | Tamas Nagy | (378, 504)          | Grayscale, Packbits                     | [BSD-3-Clause](https://opensource.org/licenses/BSD-3-Clause) |
 | `house.tif`          | [2]        | (512, 512)          | Gray Alpha                              | MIT license?                                                 |
 | `4D-series.ome.tif`  | [3]        | (439, 167, 5, 1, 7) | Signed integer gray type                | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)    |
+| `julia.tif`          | Tamas Nagy | (378, 504)          | RGB, discontiguous strips [4]           | [BSD-3-Clause](https://opensource.org/licenses/BSD-3-Clause) |
 
 [1]: http://people.math.sc.edu/Burkardt/data/tif/tif.html
 [2]: https://github.com/JuliaImages/TestImages.jl
 [3]: https://docs.openmicroscopy.org/ome-model/6.0.0/ome-tiff/data.html
+[4]: https://github.com/tlnagy/TiffImages.jl/pull/38#issuecomment-786281834
