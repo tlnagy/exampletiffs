@@ -28,6 +28,7 @@ unknown.
 | `shapes_lzw_planar.tif`                | Christopher Burns | (128, 72)           | Planar, LZW Compression [5]             | [BSD-3-Clause](https://opensource.org/licenses/BSD-3-Clause) |
 | `shapes_lzw_tiled_planar.tif`          | Christopher Burns | (128, 72)           | Tiled, Planar, LZW Compression [5]      | [BSD-3-Clause](https://opensource.org/licenses/BSD-3-Clause) |
 | `shapes_umcompressed_tiled_planar.tif` | Christopher Burns | (128, 72)           | Tiled, Planar, Uncompressed [5]         | [BSD-3-Clause](https://opensource.org/licenses/BSD-3-Clause) |
+| `shapes_lzw_12bps.tif`                 | Christopher Burns | (128, 72)           | LZW, 12 bits per channel [5]            | [BSD-3-Clause](https://opensource.org/licenses/BSD-3-Clause) |
 
 [1]: http://people.math.sc.edu/Burkardt/data/tif/tif.html
 [2]: https://github.com/JuliaImages/TestImages.jl
