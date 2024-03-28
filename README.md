@@ -33,6 +33,10 @@ unknown.
 | `shapes_lzw_14bps.tif`                 | Christopher Burns      | (128, 72)           | LZW, 14 bits per channel [5]             | [BSD-3-Clause](https://opensource.org/licenses/BSD-3-Clause) |
 | `shapes_lzw_predictor3.tif`            | Christopher Burns      | (128, 72)           | predictor == 3, LZW Compression [5]      | [BSD-3-Clause](https://opensource.org/licenses/BSD-3-Clause) |
 | `earthlab.tif` [6]                     | Earth Lab, Leah Wasser | (2400, 2400)        | LZW, codesize change on boundary [7] [8] | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)    |
+| `shapes_uncompressed_half.tif`         | Christopher Burns      | (64, 36)            | half the size of `shapes_uncompressed`   | [BSD-3-Clause](https://opensource.org/licenses/BSD-3-Clause) |
+| `shapes_lzw_palette.tif`               | Christopher Burns      | (128, 72)           | LZW, palette                             | [BSD-3-Clause](https://opensource.org/licenses/BSD-3-Clause) |
+| `shapes_multi_size.tif`                | Christopher Burns      | (128, 72), (64, 36) | multiple images of different sizes       | [BSD-3-Clause](https://opensource.org/licenses/BSD-3-Clause) |
+| `shapes_multi_color.tif`               | Christopher Burns      | (128, 72)           | multiple images of different colortypes  | [BSD-3-Clause](https://opensource.org/licenses/BSD-3-Clause) |
 
 [1]: http://people.math.sc.edu/Burkardt/data/tif/tif.html
 [2]: https://github.com/JuliaImages/TestImages.jl
