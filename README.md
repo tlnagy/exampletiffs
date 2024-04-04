@@ -1,7 +1,7 @@
 # exampletiffs
 
 These are some examples that showcase features of the TIFF format in order
-to thoroughly test TIFF.jl.
+to thoroughly test [TiffImages.jl](https://github.com/tlnagy/TiffImages.jl).
 
 Unfortunately the copyright information for several of these tifs is
 unknown.
