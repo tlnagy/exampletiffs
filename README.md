@@ -38,6 +38,7 @@ unknown.
 | `shapes_multi_size.tif`                | Christopher Burns      | (128, 72), (64, 36) | multiple images of different sizes       | [BSD-3-Clause](https://opensource.org/licenses/BSD-3-Clause) |
 | `shapes_multi_color.tif`               | Christopher Burns      | (128, 72)           | multiple images of different colortypes  | [BSD-3-Clause](https://opensource.org/licenses/BSD-3-Clause) |
 | `shapes_hyper.tif`                     | Christopher Burns      | (128, 72)           | seven channels                           | [BSD-3-Clause](https://opensource.org/licenses/BSD-3-Clause) |
+| `shapes_tiled_multi.tif`               | Christopher Burns      | (128, 72) x 3       | multiple tiled slices                    | [BSD-3-Clause](https://opensource.org/licenses/BSD-3-Clause) |
 
 [1]: http://people.math.sc.edu/Burkardt/data/tif/tif.html
 [2]: https://github.com/JuliaImages/TestImages.jl
