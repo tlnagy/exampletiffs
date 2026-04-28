@@ -40,12 +40,14 @@ unknown.
 | `shapes_hyper.tif`                     | Christopher Burns      | (128, 72)           | seven channels                           | [BSD-3-Clause](https://opensource.org/licenses/BSD-3-Clause) |
 | `shapes_tiled_multi.tif`               | Christopher Burns      | (128, 72) x 3       | multiple tiled slices                    | [BSD-3-Clause](https://opensource.org/licenses/BSD-3-Clause) |
 | `shapes_zstd.tif`                      | Christopher Burns      | (128, 72)           | Zstd Compression [5]                     | [BSD-3-Clause](https://opensource.org/licenses/BSD-3-Clause) |
+| `shapes_jpg.tif`                       | Christopher Burns      | (128, 72)           | Jpeg Compression [5]                     | [BSD-3-Clause](https://opensource.org/licenses/BSD-3-Clause) |
+
 
 [1]: http://people.math.sc.edu/Burkardt/data/tif/tif.html
 [2]: https://github.com/JuliaImages/TestImages.jl
 [3]: https://docs.openmicroscopy.org/ome-model/6.0.0/ome-tiff/data.html
 [4]: https://github.com/tlnagy/TiffImages.jl/pull/38#issuecomment-786281834
-[5]: all shapes_* images are identical and differ only by encoding
+[5]: all shapes_* images are identical (% compression artifacts) and differ only by encoding
 [6]: original image path in coldspringsfire.zip is modis/reflectance/17_july_2016/crop/cloud_mask_july17_500m.tif
 [7]: Lab, Earth; Wasser, Leah (2018). Earth Analytics: Cold Springs Fire Remote Sensing Data. figshare. Dataset. https://doi.org/10.6084/m9.figshare.6083210.v1
 [8]: https://figshare.com/articles/dataset/Earth_Analytics_Cold_Springs_Fire_Remote_Sensing_Data/6083210?file=10960112
