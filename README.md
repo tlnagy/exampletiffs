@@ -41,6 +41,8 @@ unknown.
 | `shapes_tiled_multi.tif`               | Christopher Burns      | (128, 72) x 3       | multiple tiled slices                    | [BSD-3-Clause](https://opensource.org/licenses/BSD-3-Clause) |
 | `shapes_zstd.tif`                      | Christopher Burns      | (128, 72)           | Zstd Compression [5]                     | [BSD-3-Clause](https://opensource.org/licenses/BSD-3-Clause) |
 | `shapes_jpg.tif`                       | Christopher Burns      | (128, 72)           | Jpeg Compression [5]                     | [BSD-3-Clause](https://opensource.org/licenses/BSD-3-Clause) |
+| `shapes_gray_jpg.tif`                  | Christopher Burns      | (128, 72)           | Jpeg Compression, Grayscale [5]          | [BSD-3-Clause](https://opensource.org/licenses/BSD-3-Clause) |
+| `shapes_ycbcr_jpg.tif`                 | Christopher Burns      | (128, 72)           | Jpeg Compression, YCbCr [5]              | [BSD-3-Clause](https://opensource.org/licenses/BSD-3-Clause) |
 
 
 [1]: http://people.math.sc.edu/Burkardt/data/tif/tif.html
